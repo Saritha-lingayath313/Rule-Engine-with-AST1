@@ -4,8 +4,8 @@
 
 ## Applicant Introduction
 
-Hi, I'm Subhodeep Manna, a Full-Stack Developer and AI enthusiast skilled in React, Next.js, Django, and machine learning. I'm currently working on projects like a College Directory App and a Seat Booking System, always eager to learn and innovate!
-[LinkedIn](https://www.linkedin.com/in/subhodeep21/).
+Hi, I'm Saritha Lingayath, a Full-Stack Developer and skilled in React, HTML, CSS, SQL. I'm fresher and completed the internship in KODNEST, always eager to learn and innovate!
+
 
 ## Table of Contents
 
@@ -26,17 +26,9 @@ Hi, I'm Subhodeep Manna, a Full-Stack Developer and AI enthusiast skilled in Rea
 > I read the assginment description a lot of times, so as to make sure I don't
 > miss on anything important.
 
-Most of the code I have written would seem like a story, so I made sure the README
-doesn't :D. Everything would mostly be in bullets hereafter:
 
-- code is heavily commented and accompany suitable docstrings (React code
-  compatible with Doxygen, and Python code with Sphinx).
-- Unittests are written keeping in mind all edge cases that could occur, there are
-  positive as well as negative test cases. Coverage too is kept above 80%.
-- This README will talk about the technical parts first, then about the solution.
-  And later about all miscellenous things, which are although technical, yet I put
-  them in the "non-technical" bracket. They talk more about my thinking and approach
-  towards the solution, and a brief discussion on the design is also present.
+
+
 
 ## Technical Parts
 
@@ -301,32 +293,8 @@ Class Parser:
             rvalue = strip_quotes(rvalue)
         condition = Condition(lvariable, rvalue, comparison_type)
         Return Node("operand", value=condition)
-```
 
-## Non Technical Parts
 
-The technical parts have been discussed in these docs, and the code also describes it
-so I wanted to give some space to talk about the non-technical stuff, although it relates
-to everything technical only, but it's more about how I approached the solution rather than
-the solution itself.
-
-### My Approach
-
-My Approach was pretty simple.
-
-- The first thing I did was read the assignment deeply to understand what exactly it
-  was asking us to implement.
-- My second step was to do some literature reading about most frequent operator heuristic,
-  and understood what it meant.
-- This work was very similar to how parsers work in compilers. Having worked with `lex` and `bison`
-  before during my coursework, I could easily decipher how I should appraoch this problem.
-- So I drew an AST, and udnerstood the components, each Node, a Logical Operator, all binary operators,
-  and Conditions, etc. So, I created class definitions for all of them, and identified the relationship
-  between them.
-- My next task was very simple, create a parser for it, and devise an algorithm to traverse the tree.
-- Traversing the tree would enable 3 things - creation from string, evaluating a condition, and storing
-  the tree.
-- After I wrote code for it, it became a pretty straight forward task.
 
 ### Feedback
 
@@ -335,6 +303,5 @@ and software engineering principles. It hit all 3 important pillars, academics, 
 It felt great to do this assignment, I also got to learn a lot about the heuristics in this space,
 and I am thankful for it.
 
-## Outro
 
 Thanks.
