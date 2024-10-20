@@ -6,7 +6,6 @@
 
 Hi, I'm Saritha Lingayath, a Full-Stack Developer and skilled in React, HTML, CSS, SQL. I'm fresher and completed the internship in KODNEST, always eager to learn and innovate!
 
-
 ## Table of Contents
 
 - [Introduction](#introduction)
